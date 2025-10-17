@@ -1,0 +1,132 @@
+{
+  "self_optimization_kpis": {
+    "hormonal_physical": [
+      {
+        "name": "Morning Energy Coherence",
+        "code": "MEC",
+        "type": "subjective_score",
+        "unit": "1-10",
+        "target": ">=7",
+        "direction": "↑",
+        "description": "Reflects cortisol rhythm and restorative sleep quality."
+      },
+      {
+        "name": "Stress–Recovery Ratio",
+        "code": "SRR",
+        "type": "ratio",
+        "unit": "stress_events/recovery_sessions",
+        "target": "≈1:1",
+        "direction": "≈",
+        "description": "Measures balance between activation and deactivation of HPA axis."
+      },
+      {
+        "name": "Resting Pulse Variability",
+        "code": "RPV",
+        "type": "physiological",
+        "unit": "ms (HRV proxy)",
+        "target": "upward_trend",
+        "direction": "↑",
+        "description": "Represents autonomic flexibility and resilience."
+      },
+      {
+        "name": "Evening Downshift Efficiency",
+        "code": "EDE",
+        "type": "time_minutes",
+        "unit": "minutes",
+        "target": "<=20",
+        "direction": "↓",
+        "description": "Time needed to reach calm before sleep; cortisol shut-off efficiency."
+      }
+    ],
+
+    "psychological_cognitive": [
+      {
+        "name": "Return-to-Coherence Time",
+        "code": "RCT",
+        "type": "time_minutes",
+        "unit": "minutes",
+        "target": "decreasing",
+        "direction": "↓",
+        "description": "Measures how quickly calm is restored after emotional trigger."
+      },
+      {
+        "name": "Focused-Flow Ratio",
+        "code": "FFR",
+        "type": "ratio",
+        "unit": "deep_focus_hours / total_work_hours",
+        "target": ">=0.4",
+        "direction": "↑",
+        "description": "Represents proportion of deep, distraction-free focus."
+      },
+      {
+        "name": "Emotional Spectrum Width",
+        "code": "ESW",
+        "type": "count",
+        "unit": "emotions/day",
+        "target": "4–6",
+        "direction": "≈",
+        "description": "Tracks emotional granularity and adaptive awareness."
+      },
+      {
+        "name": "Social Clarity Index",
+        "code": "SCI",
+        "type": "subjective_score",
+        "unit": "1-10",
+        "target": ">=7",
+        "direction": "↑",
+        "description": "Assesses clarity and low-drama maintenance in social interactions."
+      }
+    ],
+
+    "nutritional_metabolic": [
+      {
+        "name": "Glycemic Stability Index",
+        "code": "GSI",
+        "type": "count",
+        "unit": "energy_crashes/day",
+        "target": "<=1",
+        "direction": "↓",
+        "description": "Monitors blood sugar and dopamine steadiness."
+      },
+      {
+        "name": "Protein Sufficiency",
+        "code": "PS",
+        "type": "ratio",
+        "unit": "actual_intake/target_intake",
+        "target": ">=0.9",
+        "direction": "↑",
+        "description": "Ensures adequate amino acid intake for neurotransmitter synthesis."
+      },
+      {
+        "name": "Hydration Consistency",
+        "code": "HC",
+        "type": "ratio",
+        "unit": "intake/target_ml",
+        "target": ">=0.9",
+        "direction": "↑",
+        "description": "Supports cortisol buffering and cognitive clarity."
+      },
+      {
+        "name": "Caffeine-Timing Discipline",
+        "code": "CTD",
+        "type": "binary",
+        "unit": "yes/no",
+        "target": ">=80% yes",
+        "direction": "↑",
+        "description": "Protects circadian rhythm and sleep quality."
+      }
+    ],
+
+    "integrative": [
+      {
+        "name": "System Coherence Index",
+        "code": "SCI2",
+        "type": "composite_score",
+        "unit": "1-10",
+        "target": ">=7",
+        "direction": "↑",
+        "description": "Aggregated average of MEC, RCT, ESW, and GSI; overall harmony indicator."
+      }
+    ]
+  }
+}
